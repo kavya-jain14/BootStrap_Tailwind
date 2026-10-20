@@ -1,0 +1,11 @@
+{
+  "name": "framework-lab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss --input ./tailwind-input.css --content ./tailwind.html --output ./tailwind.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
